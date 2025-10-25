@@ -3,7 +3,7 @@ import axios from "axios";
 import Cookies from "js-cookie";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/api/v1",
+  baseURL: "https://skillhub-backend-phz7.onrender.com/api/v1",
 });
 
 api.interceptors.request.use((config) => {

@@ -7,16 +7,8 @@ export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-50 font-sans dark:bg-black">
       <main className="flex flex-col items-center justify-center text-center px-6 py-20 sm:px-12 max-w-3xl bg-white dark:bg-zinc-900 rounded-2xl shadow-md">
-        {/* Logo */}
         <div className="flex items-center gap-3 mb-6">
-          <Image
-            src="/next.svg"
-            alt="SkillHub Logo"
-            width={80}
-            height={20}
-            className="dark:invert"
-            priority
-          />
+         
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
             SkillHub
           </h1>

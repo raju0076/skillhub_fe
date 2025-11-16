@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes snakeUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+.animate-snake {
+  animation: snakeUp 0.6s ease-out forwards;
+}
+html {
+  scroll-behavior: smooth;
+}
